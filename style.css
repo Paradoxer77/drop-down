@@ -1,0 +1,16 @@
+body {
+  display: flex;
+}
+
+.drop-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 500ms linear;
+}
+
+.drop-item {
+  border: 1px solid black;
+}
